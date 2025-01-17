@@ -23,16 +23,15 @@ The VPN Admin Panel offers a central hub for VPN service providers to manage the
 - Composer
 - Laravel 11.x or later
 - MySQL or any other supported database
-- VPN Server(s) for integration
 
 ## Installation
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/sameededitz/tom-vpn
+    git clone https://github.com/sameededitz/aj-vpn.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd vpn-admin-panel
+    cd aj-vpn
     ```
 3. **Install dependencies**:
     ```bash
@@ -65,8 +64,6 @@ The VPN Admin Panel offers a central hub for VPN service providers to manage the
 ## Referral System
 - **User Referrals**: Each user has a unique referral code to invite others.
 - **Referral Tracking**: Easily track how many users a particular user has referred.
-- **Referral Rewards**: Set custom rewards for each successful referral, such as free subscription days or discounts.
-- **Referral Tiers**: Create different reward structures based on subscription tiers.
 
 ## Developer Information
 - **Developer**: Sameed
