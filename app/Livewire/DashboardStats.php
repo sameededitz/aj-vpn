@@ -16,7 +16,7 @@ class DashboardStats extends Component
     public function mount()
     {
         $this->userCount = User::count();
-        $this->planCount = Plan::count();
+        $this->planCount = Plan::where('id', '!=', 1)->count();
         $this->totalServers = Server::count();
     }
     public function render()
