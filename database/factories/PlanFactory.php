@@ -20,7 +20,7 @@ class PlanFactory extends Factory
             'name' => 'Trial Plan',
             'description' => 'New User Daily Plan (Don\'t Delete)',
             'price' => '0.00',
-            'duration' => 'daily',
+            'duration' => 'weekly',
         ];
     }
 }
